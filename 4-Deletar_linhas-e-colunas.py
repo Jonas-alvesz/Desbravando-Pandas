@@ -1,6 +1,6 @@
 import pandas as pd
 
-dados=pd.read_excel(r'C:\Users\jonas\Desktop\Tratamento de Dados\Arquivos Excel\Deletar_Linhas_Colunas.xlsx')
+dados=pd.read_excel('./Arquivos Excel/Deletar_Linhas_Colunas.xlsx')
 
 print('\nExibindo tudo do arquivo excel(xlsr):')
 print(dados)
