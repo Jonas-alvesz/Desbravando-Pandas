@@ -1,6 +1,6 @@
 import pandas as pd
 
-dados=pd.read_excel(r'C:\Users\jonas\Desktop\Tratamento de Dados\Arquivos Excel\Tratamento_Dados.xlsx')
+dados=pd.read_excel('./Arquivos Excel/Tratamento_Dados.xlsx')
 
 print(dados)
 
