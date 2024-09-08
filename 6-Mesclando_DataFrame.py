@@ -1,8 +1,8 @@
 import pandas as pd
 
-dados_janeiro=pd.read_excel(r'C:\Users\jonas\Desktop\Tratamento de Dados\Arquivos Excel\Vendas_Jan1.xlsx')
-dados_fevereiro=pd.read_excel(r'C:\Users\jonas\Desktop\Tratamento de Dados\Arquivos Excel\Vendas_Fev.xlsx')
-dados_marco=pd.read_excel(r'C:\Users\jonas\Desktop\Tratamento de Dados\Arquivos Excel\Vendas_Mar.xlsx')
+dados_janeiro=pd.read_excel('./Arquivos Excel/Vendas_Jan1.xlsx')
+dados_fevereiro=pd.read_excel('./Arquivos Excel/Vendas_Fev.xlsx')
+dados_marco=pd.read_excel('./Arquivos Excel/Vendas_Mar.xlsx')
 
 # appened - Unindo os dois DataFrame
 vendas_jan_fev=pd.concat([dados_janeiro,dados_fevereiro])
