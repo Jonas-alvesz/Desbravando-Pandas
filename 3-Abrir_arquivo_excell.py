@@ -1,7 +1,7 @@
 import pandas as pd
 
 # abrir/ler arquivo excel
-vendas = pd.read_excel(r"C:\Users\jonas\Desktop\Tratamento de Dados\Arquivos Excel\Vendas_Jan.xlsx")
+vendas = pd.read_excel("./Arquivos Excel/Vendas_Jan.xlsx")
 
 print('\nExibindo tudo do arquivo excel(xlsr):')
 print(vendas)
